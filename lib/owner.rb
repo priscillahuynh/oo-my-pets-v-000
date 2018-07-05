@@ -25,6 +25,9 @@ class Owner
     @pets[:dogs]<<Dog.new(dog_name)
   end
 
+  def walks_dogs
+    
+
   def self.all
     @@owners
   end
