@@ -31,6 +31,12 @@ class Owner
     end
   end
 
+  def play_with_cats
+    @pets[:cats].each do |cats|
+      cats.mood="happy"
+    end
+  end
+
   def self.all
     @@owners
   end
