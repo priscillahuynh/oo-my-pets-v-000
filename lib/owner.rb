@@ -13,11 +13,11 @@ class Owner
   end
 
   def self.reset_all
-    @@all=[]
+    @@owners=[]
   end
 
   def self.count
-    @@all.count
+    @@owners.count
   end
 
   def species
