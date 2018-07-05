@@ -48,7 +48,7 @@ class Owner
   end
 
   def list_pets
-    @pets
+    pets
   end
 
   def self.all
