@@ -4,6 +4,7 @@ class Cat
 
   def initialize(name)
     @name=name
+    @species=species
      self.mood="nervous"
   end
 end
