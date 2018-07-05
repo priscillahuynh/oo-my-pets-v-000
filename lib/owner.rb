@@ -25,7 +25,4 @@ class Owner
     @@owners.count
   end
 
-  def species
-    # self.species
-  end
 end
