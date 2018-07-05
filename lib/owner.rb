@@ -28,6 +28,8 @@ class Owner
   def walks_dogs
     @pets[:dogs].each do |dogs|
       dogs.mood="happy"
+    end
+  end
 
   def self.all
     @@owners
