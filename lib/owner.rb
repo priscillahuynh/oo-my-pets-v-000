@@ -43,6 +43,13 @@ class Owner
     end
   end
 
+  def sell_pets
+  end
+
+  def list_pets
+    @pets
+  end
+
   def self.all
     @@owners
   end
